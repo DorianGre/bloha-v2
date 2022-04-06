@@ -1,0 +1,411 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    padding: 0;
+    margin:0;
+}
+h1{
+    margin-bottom: 0;
+}
+span{
+    margin: 0;
+}
+
+@font-face{
+  font-weight: 700;
+  font-family: "Buyan";
+  src:url('fonts/BuyanThin.ttf');
+}
+@font-face{
+  font-weight: 700;
+  font-family: "Serifiqo";
+  src:url('fonts/Serifiqo 4F Free Capitals.otf');
+}
+@font-face{
+    font-weight: 700;
+  font-family: "MusticaproSemibold";
+  src:url('fonts/MusticaproSemibold.otf');
+}
+
+.navigation{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    z-index: 1000;
+}
+.nav{
+    margin-top:10px;
+    margin-right: 30px;
+    float: right;
+    width: 580px;
+    display: flex;   
+}
+.nav_link{
+    font-family:"MusticaproSemibold";
+    background-color: rgba(27,23,23, .6);
+    height: 37px;
+    text-decoration: none;
+    color: #D1C1B5;
+    flex-basis: auto;  
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all .2s linear;
+    margin-right: 2px;
+}
+.nav_link:hover{
+    background-color: rgba(35,35,35,.8);
+}
+
+.svg_nav{
+    width: 26px; 
+    height: 26px; 
+    fill:#D1C1B5; 
+    padding-right: 10px;
+}
+
+.container{
+    margin: 0 auto;
+    width:950px;
+    height: 640px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_cont{
+    margin: 0 auto;
+    position: relative;
+    background-image: url(images/coffee-1276784.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -40px;
+    width: 100%;
+    height: 800px;
+    
+}
+.cont_headers{
+    margin: 0 auto;
+    display: flex;
+}
+.cont_cont{
+    font-family: "Serifiqo", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-size: 76px;
+    border-radius: 14px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: #E6D2C1;
+    letter-spacing: 7px;
+    margin: 0 auto;
+}
+
+.main_descr{
+    font-family: "Buyan";
+    font-size: 27px;
+    color:#E6D2C1;
+}
+
+.cont_buttons{
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    margin-top: 10px;
+    
+}
+
+
+
+
+.btn{
+    font-family:"MusticaproSemibold";
+    border: 1px solid rgb(27,23,23,.6);
+    display: inline-block;
+    font-size: 19px;
+    color: #D1C1B5;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 3px;
+    border-radius: 45px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color .2s linear;
+    padding-bottom: 3px;
+    
+}
+
+.btn--one{
+    background-color: rgba(27,23,23,.6);
+    border-radius: 45px;
+    color: #D1C1B5;
+    border:0;
+    padding: 15px 60px;
+    margin-right: 10px;
+    letter-spacing: 1.5px;
+    padding-bottom: 17px;
+}
+.btn--one:hover{
+   background-color: rgba(12,8,8,.8);
+}
+    
+.svg{
+    opacity: 0.7;
+    width: 50px;
+    height: 35px;
+}
+    
+  
+
+
+
+.second_screen{
+    
+    display: flex;
+    height: 1200px;
+    
+}
+
+.about_content{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    width: 50%;
+    
+}
+
+.about_container{
+    padding: 20px 20px;
+    font-family: "Verdana";
+    color:#1C1C3D;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0 auto;
+    line-height: 1.5;
+    height: 950px;
+    width: 520px;
+    
+}
+
+.about_img{
+    height: inherit;
+    width: 50%;
+    background-image: url(images/greenhouse-5095328_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.header_content{
+    font-size: 45px;
+    color:rgb(190,100,76);
+    margin-top: -5px;
+    font-family: "MusticaproSemibold";
+    
+}
+
+.sub_header_content{
+    margin:10px 0;
+    color: #a19fb5;
+    font-family: "MusticaproSemibold";
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 400;
+   
+}
+.btn_about{
+    padding:10px 40px;
+    background-color: rgb(203,162,125);
+    color: white;
+    text-decoration: none;
+    font-family: 'Verdana';
+    font-size:18px;
+    font-weight: 100;
+    line-height: 34px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.btn_about:hover{
+    background-color: rgb(193,132,115);
+}
+    
+.features{
+    background-color: rgb(255,252,231);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.features_header{
+    margin-top: 50px;
+    width: 700px;
+    font-size:32px;
+    text-transform: uppercase;
+    font-family: 'MusticaproSemibold';
+    color: rgb(190,100,76);
+    margin: 0 auto;
+    height: 300px;
+}
+
+.rndrs{
+    text-align: center;
+    color: #1c1c3d;
+    font-family: "MusticaproSemibold";
+    font-size: 20px;
+}
+
+.features_container{
+    margin: 0 auto;
+    display: flex;
+    height: 350px;
+    width: 700px;
+    align-items: center;
+    justify-content: space-between;
+}
+.features_item{
+    height: 300px;
+    color: #1c1c3d;
+    font-family: "MusticaproSemibold";
+    font-size: 27px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.svg_fea{
+    fill:rgb(190,100,76);
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.third_screen{
+    display: flex;
+    height: 900px;
+    
+}
+
+.third_content{
+    display: flex;
+    margin-top: 20px;
+    height: inherit;
+    width: 50%;
+    
+}
+
+.third_container{
+    padding: 20px 20px;
+    font-family: "Verdana";
+    color:#1C1C3D;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0 auto;
+    line-height: 1.5;
+    height: 950px;
+    width: 520px;
+    
+}
+
+.third_img{
+    height: inherit;
+    width: 50%;
+    background-image: url(images/cute-3305626_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+.reviews{
+    background-color: rgb(255,252,231);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.reviews_header{
+    text-align: center;
+    margin-top: 50px;
+    width: 700px;
+    font-size:32px;
+    text-transform: uppercase;
+    font-family: 'MusticaproSemibold';
+    color: rgb(190,100,76);
+    margin: 0 auto;
+    height: 200px;
+}
+
+.rndrs{
+    text-align: center;
+    color: #1c1c3d;
+    font-family: "MusticaproSemibold";
+    font-size: 20px;
+}
+
+.reviews_container{
+    margin: 0 auto;
+    display: flex;
+    height: 350px;
+    width: 1180px;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviews_item{
+    box-shadow: 1px 1px 5px 2px rgb(0 0 0 / 10%);
+    height: 300px;
+    color: #1c1c3d;
+    font-family: "MusticaproSemibold";
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    text-align: center;
+    margin: 20px 10px;
+    justify-content: center;
+  
+}
+
+.svg_fea{
+    fill:rgb(190,100,76);
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.review_icon{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.review_header{
+    font-size:30px;
+    margin:0;
+    color:rgb(190,100,76);
+}
+.review_head{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+
